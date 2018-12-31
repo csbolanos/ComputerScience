@@ -4,14 +4,16 @@
 
 using namespace std;
 
-/*********Functions**********/
+/*********FP Start**********/
 void readData(ifstream &data);
 void printProgress(Contest programmers[],int size);
-
+/*********FP End**********/
 
 int main()
 {
-
+	//if you want to use the file program12.txt, just change the parameter
+	//or uncomment the folloging line and comment the line 17:
+	//ifstream readInfo("program12.txt");
 	ifstream readInfo("program11.txt");
 
 	readData(readInfo);
@@ -21,9 +23,10 @@ int main()
 	return 0;
 }
 
+/*********FD Start**********/
 
 void readData(ifstream &data)
-{
+{//reading data from the text file
 	int i = 0;
 	while (!data.eof())
 	{
@@ -43,3 +46,5 @@ void printProgress(Contest programmers[], int size)
 	}
 	cout << endl;
 }
+
+/*********FD End**********/
