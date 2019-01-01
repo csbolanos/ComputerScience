@@ -12,7 +12,7 @@ void printProgress(Contest programmers[],int size);
 int main()
 {
 	//if you want to use the file program12.txt, just change the parameter
-	//or uncomment the folloging line and comment the line 17:
+	//or uncomment the folloging line and comment: ifstream readInfo("program11.txt"); :
 	//ifstream readInfo("program12.txt");
 	ifstream readInfo("program11.txt");
 
