@@ -1,3 +1,11 @@
+
+/*******************************************************************
+//Alberto Bolanos
+//Dr. Yumei Huo
+//Lab 1 02/02/2016
+//Review Structures and Arrays
+********************************************************************/
+
 #include <iostream>
 #include <fstream>
 #include "ContestHeader.h" //structure header file
